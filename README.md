@@ -50,6 +50,14 @@ args:
 
 ### Search product by name in category
 
+MercadoLibre.search_product_by_name_in_category(name, limit=200, price=None)
+
+Return a list of tuple with format (product_name, price, url).
+
+args:
+- name: String representing something to search.
+- limit: integer representing an amount.
+- price: String representing a price range.
 
 #To do
 -
