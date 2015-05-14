@@ -39,5 +39,7 @@ args:
 
 ### Search product by name
 
+### Search product by name in category
+
 #To do
 -
