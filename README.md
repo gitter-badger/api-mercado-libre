@@ -33,13 +33,23 @@ MercadoLibre.search_product_by_category(category, limit=200, price=None)
 Return a list of tuple with format (product_name, price, url).
 
 args:
-- name: String representing something to search.
-- category: String representing a category.
+- category: String representing category to search.
+- limit: integer representing an amount.
 - price: String representing a price range.
 
 ### Search product by name
 
+MercadoLibre.search_product_by_name(name, limit=200, price=None)
+
+Return a list of tuple with format (name, price, url).
+
+args:
+- name: String representing something to search.
+- limit: integer representing an amount.
+- price: String representing a price range.
+
 ### Search product by name in category
+
 
 #To do
 -
