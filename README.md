@@ -25,6 +25,7 @@ mercado.search_product_by_name_in_category('dvd', 'MLB1648', '1-1000')
 ```
 # Commands available
 
+
 ### Search product by category
 
 MercadoLibre.search_product_by_category(category, limit=200, price=None)
@@ -35,6 +36,8 @@ args:
 - name: String representing something to search.
 - category: String representing a category.
 - price: String representing a price range.
+
+### Search product by name
 
 #To do
 -
