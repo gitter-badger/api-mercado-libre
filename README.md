@@ -59,5 +59,10 @@ args:
 - limit: integer representing an amount.
 - price: String representing a price range.
 
+# Dependencies
+
+- Python 2.7
+- [requests](http://docs.python-requests.org/en/latest/)
+
 #To do
 -
