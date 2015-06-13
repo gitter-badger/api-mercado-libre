@@ -24,6 +24,7 @@ class MercadoLibre(object):
         return []
 
     def search_product_by_name(self, name, price=None):
+        '''return a product list'''
         product_list = []
         try:
             response = requests.get(URL_BASE + ('?q=%s&price=%s') % (name, price))
